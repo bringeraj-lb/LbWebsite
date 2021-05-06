@@ -23,12 +23,13 @@
 
 
 <body>
+    <!-- Navbar -->
     <header class="fixed-top ">
-        <nav class="navbar navbar-expand-lg navbar-light bg-glass ">
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom bg-glass ">
             <div class="container">
                 <div class="flex-grow-1 d-flex">
                     <span class="w-100 d-lg-none d-block">
-                        <!-- hidden spacer to center brand on mobile -->
+
                     </span>
                     <a class="navbar-brand d-none d-lg-inline-block" href="#">
                         <img src="asset/img/logo.png" alt="logo" class="img-responsive" width="70" height="70">
@@ -59,25 +60,60 @@
                             <a class="nav-link m-2" href="#">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><button class="btn btn-outline-success rounded-pill"
+                            <a class="nav-link" href="#"><button class="btn rounded-pill course-site-btn"
                                     type="button">Course
                                     Site</button></a>
                         </li>
                     </ul>
 
-
-
-
                 </div>
             </div>
         </nav>
     </header>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quasi veritatis corporis ut necessitatibus
-        animi quam molestiae fugit, impedit labore deleniti ipsam nisi. Aliquam libero nam quae beatae cupiditate neque!
-    </p>
-    <ul>
-        <li>abcd</li>
-    </ul>
+    <!-- End of Navbar -->
+
+
+    <!-- ======= Hero Section  ======= -->
+    <section id="hero" class="d-flex hero-sec bg-primarycolor">
+
+        <div class="container hero-lg">
+            <div class="row ">
+                <div class="col-lg-7 ">
+                    <img src="asset/img/hero-bg.svg" class="img-fluid me-lg-0 bg-hero" alt="img1">
+                </div><br>
+                <div class="col-lg-5 pt-1 pt-lg-0 order-2 d-flex flex-column justify-content-center mt-3">
+                    <form action="#/action_page.php"
+                        class="needs-validation border col-lg-9 col-md-9 m-auto shadow p-4  p-md-5 p-lg-6 bg-hero-form"
+                        novalidate style=" border-radius: 12px;">
+                        <h3 style="text-align: center;">Analytics</h3>
+                        <div class="form-group">
+
+                            <input type="text" class="form-control  bg-white p-2 mt-4" novalid="uname"
+                                id="validationCustomUsername" placeholder="Username" name="uname"
+                                aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+
+                            <div class="invalid-feedback">Please fill out this
+                                field.</div>
+                        </div>
+                        <div class="form-group">
+
+                            <input type="password" class="form-control  bg-white  p-2 mt-4" id="validationCustom03"
+                                placeholder="Password" name="pswd" required>
+
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="d-grid gap-2 col-4 mx-auto mt-4">
+                            <button type="submit" class="btn btn-primary rounded-pill">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End of Hero -->
+    <div class="section2" style="height:50vh"></div>
+
 
 
 </body>
