@@ -4,6 +4,7 @@
   --color1: rgb(117, 0, 255);
   --color2: rgb(223, 0, 225);
   --hero-bg: url(./../img/hero-bg.svg);
+
   --font1: "Oswald", sans-serif;
 }
 
@@ -40,7 +41,6 @@ body {
 
 .bg-hero-form {
   background: rgba(255, 255, 255, 0.682);
-  font-family: var(--font1);
 }
 .bg-primarycolor {
   background-color: var(--color-primary);
@@ -52,6 +52,22 @@ body {
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: left bottom;
+}
+.sec2 {
+  min-height: 50vh;
+  background-image: url(./../img/hero-bg1.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+h1::after,
+h1::before {
+  content: "";
+  display: inline-block;
+  text-align: center;
+  margin: 0 12px 12px 12px;
+  width: 50px;
+  height: 1px;
+  background: var(--color1);
 }
 
 @media (min-width: 986px) {
