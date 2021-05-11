@@ -14,12 +14,12 @@ body {
   background-color: #fff;
 }
 
-/*=============== Backgrount of Navbar ===========*/
-.bg-glass {
+/*=============== Background of Navbar ===========*/
+/* .bg-glass {
   background: rgba(248, 248, 248, 0.44);
   box-shadow: 0px 0.5px 20px 5px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8px);
-}
+} */
 
 .course-site-btn {
   color: var(--color1);
@@ -35,6 +35,11 @@ body {
     var(--color2) 120.09%
   );
   color: white;
+}
+
+.analytics-site-btn:hover {
+  color: var(--color1);
+  background-color: white;
 }
 
 /*========== Hero Section =========*/
@@ -68,6 +73,10 @@ h1::before {
   width: 50px;
   height: 1px;
   background: var(--color1);
+}
+
+.team-bg {
+  background-color: var(--color-primary);
 }
 
 @media (min-width: 986px) {
