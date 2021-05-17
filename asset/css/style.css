@@ -114,6 +114,14 @@ h1::before {
   border-radius: 50px;
   min-height: 38vh;
 }
+.xyz {
+  /* background-image: url("./../img/Vectary texturelap.png"); */
+  background-position: cover;
+}
+.abc {
+  overflow: hidden;
+}
+
 @media (max-width: 992px) {
   .hero-bg {
     background-image: url(./../img/mobile-herobg-2.png);
