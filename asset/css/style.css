@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
 :root {
   --color-primary: #ffeeff;
   --color1: rgb(117, 0, 255);
@@ -6,13 +6,14 @@
   --hero-bg: url(./../img/hero-bg.svg);
   --hero-bg2: url(./../img/hero-bg-img2.png);
 
-  --font1: "Oswald", sans-serif;
+  --font1: "Red Hat Display", sans-serif;
 }
 
 body {
   margin: 0%;
   padding: 0%;
   background-color: #fff;
+  font-family: var(--font1);
 }
 
 /*=============== Background of Navbar ===========*/
@@ -62,16 +63,6 @@ body {
   background-position: right;
 }
 
-/* h1::after,
-h1::before {
-  content: "";
-  display: inline-block;
-  text-align: center;
-  margin: 0 12px 12px 12px;
-  width: 50px;
-  height: 1px;
-  background: var(--color1); 
-}*/
 .sec-header {
   content: "";
   display: inline-block;
@@ -82,9 +73,7 @@ h1::before {
   background: var(--color2);
   border-radius: 20px;
 }
-.team-bg {
-  background-color: var(--color-primary);
-}
+
 .offer-img-block {
   height: 255px;
   width: 250px;
@@ -93,16 +82,24 @@ h1::before {
   max-width: 310px;
   padding: 10px;
 }
+.parallax {
+  background-image: url("../img/pexels-bess-hamiti-35188.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
 .banner-sec {
   margin-top: 15vh;
   margin-bottom: 10vh;
-  /* margin-top:calc(10vh - 50px); */
 }
 .banner {
-  min-height: 30vh;
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
-  
+  min-height: 40vh;
 }
 .slider-width {
   width: calc(100vh-50px) !important;
@@ -115,14 +112,10 @@ h1::before {
   border-radius: 50px;
   min-height: 38vh;
 }
-.xyz {
-  /* background-image: url("./../img/Vectary texturelap.png"); */
-  background-position: cover;
+.sec-height {
+  max-height: calc(100vh);
+  min-height: 600px;
 }
-.abc {
-  overflow: hidden;
-}
-
 @media (max-width: 992px) {
   .hero-bg {
     background-image: url(./../img/mobile-herobg-2.png);
