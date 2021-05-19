@@ -27,6 +27,7 @@
       crossorigin="anonymous"
     ></script>
 
+    <!--=========Tiny-slider.css===========-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"
@@ -38,48 +39,47 @@
   <body>
     <!--========= Headder Section ======== -->
     <header class="bg-light text-secondary">
-      <div class="container d-flex flex-row justify-content-around p-3">
-        <div>
-          <div class="list-inline">
-            <li class="list-inline-item me-4 align-items-center">
-              <div class="d-flex align-items-center">
-                <i class="far fa-envelope me-2"></i>
-                <a
-                  class="text-decoration-none text-secondary"
-                  href="mailto:Contact@basics.fun"
-                  >Contact@basics.fun
-                </a>
-              </div>
-            </li>
-            <li class="list-inline-item me-4">
-              <div class="d-flex align-items-center">
-                <i class="fas fa-headset me-2"></i>
-                <a
-                  class="text-decoration-none text-secondary"
-                  href="tel:+918618310900"
-                  >+91 8618310900</a
-                >
-              </div>
-            </li>
-          </div>
+      <div class="container d-flex flex-row justify-content-between py-3">
+        <div class="list-inline d-flex">
+          <li class="list-inline-item mx-1 mx-lg-3 align-items-center">
+            <div class="d-flex align-items-center">
+              <i class="far fa-envelope me-2"></i>
+              <a
+                class="text-decoration-none text-secondary"
+                href="mailto:Contact@basics.fun"
+                >contact@basics.fun
+              </a>
+            </div>
+          </li>
+          <li class="list-inline-item mx-1 mx-lg-3 ms-lg-4">
+            <div class="d-flex align-items-center">
+              <i class="fas fa-headset me-2"></i>
+              <a
+                class="text-decoration-none text-secondary"
+                href="tel:+918618310900"
+                >+918618310900</a
+              >
+            </div>
+          </li>
         </div>
+
         <div class="list-inline d-none d-md-block">
-          <li class="list-inline-item ms-auto">
+          <li class="list-inline-item mx-3">
             <a href="#" class="text-decoration-none text-secondary"
               ><i class="fab fa-instagram"></i
             ></a>
           </li>
-          <li class="list-inline-item ms-auto">
+          <li class="list-inline-item mx-3">
             <a href="#" class="text-decoration-none text-secondary"
               ><i class="fab fa-twitter"></i
             ></a>
           </li>
-          <li class="list-inline-item ms-auto">
+          <li class="list-inline-item mx-3">
             <a href="#" class="text-decoration-none text-secondary"
               ><i class="fab fa-facebook-square"></i
             ></a>
           </li>
-          <li class="list-inline-item ms-auto">
+          <li class="list-inline-item mx-3">
             <a href="#" class="text-decoration-none text-secondary"
               ><i class="fab fa-linkedin"></i
             ></a>
@@ -182,18 +182,18 @@
     <!--========== Hero Section ==========-->
     <section class="container-fluid hero-bg d-flex align-items-lg-center">
       <div class="container h-100">
-        <div class="col-lg-6 m-3 ms-lg-5 m-lg-0">
-          <div class="row">
-            <h2 class="display-3 fw-bold">Welcome to Learn Basics</h2>
+        <div class="col-lg-5 pt-3 pt-lg-0 ms-lg-2 d-flex flex-row flex-wrap">
+          <div>
+            <h2 class="display-4 fw-bold">Welcome to Learn Basics</h2>
           </div>
-          <div class="row">
+          <div>
             <p class="lead">
               A NIT, IIT, IISc Alumini Venture Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Nihil, architecto!
             </p>
           </div>
-          <div class="row">
-            <a class="nav-link" href="#"
+          <div>
+            <a href="#"
               ><button class="btn rounded-pill course-site-btn" type="button">
                 Course Site
               </button></a
@@ -203,15 +203,15 @@
       </div>
     </section>
 
-    <!--========== Who we are?- Section 2==========-->
-    <section class="container-fluid">
-      <div class="container mt-4">
+    <!--========== Who we are? - Section 2 ==========-->
+    <section>
+      <div class="container my-4" style="min-height: 50vh">
         <div class="row justify-content-center">
           <h2 class="text-center h1">Who we are?</h2>
           <div class="sec-header my-2"></div>
         </div>
-        <div class="row mx-0 my-5 mx-lg-5">
-          <div class="col-lg-6">
+        <div class="row my-5">
+          <div class="col-lg-6 p-4 py-1 py-md-4">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -231,7 +231,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-6 pt-3 pt-lg-0">
+          <div class="col-lg-6 p-4 py-1 py-md-4">
             <p>
               Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
               irure dolor in reprehenderit in voluptate velit esse cillum dolore
@@ -245,7 +245,7 @@
       </div>
     </section>
 
-    <!--==========What we offer ?-Section 3==========-->
+    <!--==========What we offer? - Section 3==========-->
     <section>
       <div class="container my-5">
         <div class="row justify-content-center">
@@ -297,7 +297,7 @@
       </div>
     </section>
 
-    <!--==========banner-Section 4==========-->
+    <!--========== Banner - Section 4==========-->
     <section class="banner-sec">
       <div class="container-fluid mt-lg-5">
         <div
@@ -325,15 +325,6 @@
                 "Every child is different and No child left behind"
               </h1>
             </div>
-          </div>
-          <div class="col-2 position-absolute top-0 start-50 translate-middle">
-            <img
-              class="img-responsive"
-              src="asset/img/logo.png"
-              alt="bannget img"
-              height="160"
-              width="160"
-            />
           </div>
         </div>
       </div>
@@ -596,40 +587,6 @@
       </div>
     </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    <script>
-      var slider = tns({
-        container: ".slider",
-        items: 1,
-        gutter: 90,
-        rewind: true,
-        autoplay: true,
-        mouseDrag: true,
-        // autoplayTimeout: 2000,
-        speed: 4500,
-        nav: false,
-        fixedWidth: 280,
-        controls: false,
-        autoplayHoverPause: true,
-        autoplayButtonOutput: false,
-        autoWidth: false,
-
-        responsive: {
-          640: {
-            items: 2,
-          },
-          700: {
-            items: 3,
-          },
-          900: {
-            items: 4,
-          },
-        },
-      });
-    </script>
-
-    <!-- How Learn Basic  is helpfull for Students -->
-
     <!--==========for Students-Section ==========-->
     <section>
       <div class="container-fluid my-5 py-5">
@@ -804,22 +761,22 @@
       </div>
     </section>
 
-    <!--==========What we offer ?-Section 3==========-->
+    <!--==========contact us==========-->
     <section>
       <div class="container my-5">
         <div class="row justify-content-center mb-5">
           <h2 class="text-center h1">CONTACT US</h2>
           <div class="sec-header my-2"></div>
         </div>
-        <div class="row">
-          <div class="col-4 d-flex flex-column">
+        <div class="d-flex flex-wrap">
+          <div class="col-lg-4 col-md-6 mt-4 d-flex flex-column">
             <div class="h2">LearnBasics</div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
               quae eius? Mollitia unde dicta nostrum amet, nobis minus? Velit
               harum optio recusandae natus, vitae voluptatibus!
             </p>
-            <div class="d-flex justify-content-start">
+            <div class="d-flex justify-content-center justify-content-md-start">
               <li class="list-inline-item">
                 <a href="#" class="text-decoration-none text-secondary"
                   ><i class="fab fa-instagram fa-lg"></i
@@ -842,8 +799,17 @@
               </li>
             </div>
           </div>
-          <div class="col-3 d-flex flex-column justify-content-around">
-            <li class="list-inline-item me-4 align-items-center">
+          <div
+            class="
+              col-lg-3 col-md-6
+              mt-4
+              d-flex
+              flex-column
+              justify-content-start
+              align-content-center
+            "
+          >
+            <li class="list-inline-item me-4 align-items-center mb-4">
               <div class="d-flex align-items-center">
                 <i class="fas fa-map-marker-alt fa-2x"></i>
 
@@ -852,17 +818,17 @@
                 </p>
               </div>
             </li>
-            <li class="list-inline-item me-4 align-items-center">
+            <li class="list-inline-item me-4 align-items-center mb-4">
               <div class="d-flex align-items-center">
                 <i class="far fa-envelope fa-2x"></i>
                 <a
                   class="text-decoration-none text-secondary offset-1"
                   href="mailto:Contact@basics.fun"
-                  >Contact@basics.fun
+                  >contact@basics.fun
                 </a>
               </div>
             </li>
-            <li class="list-inline-item me-4">
+            <li class="list-inline-item align-items-center me-4 mb-4">
               <div class="d-flex align-items-center">
                 <i class="fas fa-headset fa-2x"></i>
                 <a
@@ -873,8 +839,157 @@
               </div>
             </li>
           </div>
+          <div class="col-12 col-lg-5 mt-4 d-flex flex-column">
+            <form action="#" method="post">
+              <div class="form-group mb-3">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                  data-rule="email"
+                  data-msg="Please enter a valid email"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 8 chars of subject"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group mb-3">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="5"
+                  data-rule="required"
+                  data-msg="Please write something for us"
+                  placeholder="Message"
+                ></textarea>
+                <div class="validate"></div>
+              </div>
+
+              <div class="text-lg-start text-center">
+                <button type="submit" class="btn btn-primary">
+                  Send message
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </section>
+    <!-- ======= Footer ======= -->
+    <footer>
+      <div class="container py-4 shadow">
+        <div class="row d-flex">
+          <div class="col-lg-6 text-lg-start text-center">
+            <div class="copyright">
+              &copy; Copyright <strong>LearnBasics</strong>. All Rights Reserved
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <nav
+              class="
+                d-flex
+                justify-content-center justify-content-lg-end
+                pt-2 pt-lg-0
+              "
+            >
+              <a
+                href="#intro"
+                class="
+                  scrollto
+                  pe-1
+                  px-md-3
+                  text-secondary text-decoration-none
+                "
+                >Home</a
+              >
+              <a
+                href="#about"
+                class="
+                  scrollto
+                  pe-1
+                  px-md-3
+                  text-secondary text-decoration-none
+                "
+                >About</a
+              >
+              <a
+                href="#"
+                class="
+                  scrollto
+                  pe-1
+                  px-md-3
+                  text-secondary text-decoration-none
+                "
+                >Privacy Policy</a
+              >
+              <a
+                href="#"
+                class="scrollto px-md-3 text-secondary text-decoration-none"
+                >Terms of Use</a
+              >
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
   </body>
+
+  <!--======== Tiny slider script==========-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script>
+    var slider = tns({
+      container: ".slider",
+      items: 1,
+      gutter: 90,
+      rewind: true,
+      autoplay: true,
+      mouseDrag: true,
+      // autoplayTimeout: 2000,
+      speed: 4500,
+      nav: false,
+      fixedWidth: 280,
+      controls: false,
+      // autoplayHoverPause: true,
+      autoplayButtonOutput: false,
+      autoWidth: false,
+
+      responsive: {
+        640: {
+          items: 2,
+        },
+        700: {
+          items: 3,
+        },
+        900: {
+          items: 4,
+        },
+      },
+    });
+  </script>
 </html>
