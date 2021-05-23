@@ -32,18 +32,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"
     />
+    <!--=========jquery===========-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
 
     <link href="./asset/css/style.css" rel="stylesheet" />
   </head>
 
   <body>
     <!--========= Headder Section ======== -->
-    <header class="bg-light text-secondary">
+    <header class="text-secondary bg-headder">
       <div class="container d-flex flex-row justify-content-between py-3">
         <div class="list-inline d-flex">
           <li class="list-inline-item mx-1 mx-lg-3 align-items-center">
             <div class="d-flex align-items-center">
-              <i class="far fa-envelope me-2"></i>
+              <i class="fas fa-envelope me-2"></i>
               <a
                 class="text-decoration-none text-secondary"
                 href="mailto:Contact@basics.fun"
@@ -64,24 +70,24 @@
         </div>
 
         <div class="list-inline d-none d-md-block">
-          <li class="list-inline-item mx-3">
+          <li class="list-inline-item mx-2">
             <a href="#" class="text-decoration-none text-secondary"
               ><i class="fab fa-instagram"></i
             ></a>
           </li>
-          <li class="list-inline-item mx-3">
+          <li class="list-inline-item mx-2">
             <a href="#" class="text-decoration-none text-secondary"
               ><i class="fab fa-twitter"></i
             ></a>
           </li>
-          <li class="list-inline-item mx-3">
+          <li class="list-inline-item mx-2">
             <a href="#" class="text-decoration-none text-secondary"
-              ><i class="fab fa-facebook-square"></i
+              ><i class="fab fa-facebook-f"></i
             ></a>
           </li>
-          <li class="list-inline-item mx-3">
+          <li class="list-inline-item mx-2">
             <a href="#" class="text-decoration-none text-secondary"
-              ><i class="fab fa-linkedin"></i
+              ><i class="fab fa-linkedin-in"></i
             ></a>
           </li>
         </div>
@@ -89,7 +95,7 @@
     </header>
 
     <!--========== Navbar ===========-->
-    <div class="container-fluid sticky-top border-bottom bg-white">
+    <div class="container-fluid sticky-top bg-white" id="navbar">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <div class="d-flex">
@@ -99,8 +105,8 @@
                 src="asset/img/logo.png"
                 alt="logo"
                 class="img-responsive align-self-lg-center"
-                width="70"
-                height="70"
+                width="62"
+                height="60"
               />
             </a>
             <a
@@ -156,7 +162,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#"
                   ><button
-                    class="btn rounded-pill border analytics-site-btn"
+                    class="btn rounded-pill analytics-site-btn"
                     type="button"
                   >
                     Analytics
@@ -184,20 +190,16 @@
       <div class="container h-100">
         <div class="col-lg-5 pt-3 pt-lg-0 ms-lg-2 d-flex flex-row flex-wrap">
           <div>
-            <h2 class="display-4 fw-bold">Welcome to Learn Basics</h2>
+            <h2 class="display-4 fw-bold">
+              Welcome to<br />
+              Learn Basics
+            </h2>
           </div>
           <div>
             <p class="lead">
               A NIT, IIT, IISc Alumini Venture Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Nihil, architecto!
             </p>
-          </div>
-          <div>
-            <a href="#"
-              ><button class="btn rounded-pill course-site-btn" type="button">
-                Course Site
-              </button></a
-            >
           </div>
         </div>
       </div>
@@ -313,7 +315,8 @@
             >
               <div class="col-12 col-md-10">
                 <h1 class="h1 text-center text-white">
-                  "Every child is different and No child left behind"
+                  <sup><i class="fas fa-quote-left"></i></sup>
+                  Every child is different and No child left behind.
                 </h1>
               </div>
             </div>
@@ -322,13 +325,13 @@
       </div>
     </section>
 
-    <!--==========team-Section ==========-->
+    <!--==========team-Section-5 ==========-->
     <section style="background-color: #ffffff">
       <div class="container-fluid mx-0 mt-4">
         <div class="row justify-content-center">
           <h2 class="text-center h1">Team</h2>
           <div class="sec-header my-2"></div>
-          <h2 class="text-center lead">
+          <h2 class="text-center lead mt-3">
             Lorem ipsum dolor sit amet consectetur,<br />
             adipisicing elit. Distinctio, nam.
           </h2>
@@ -352,7 +355,6 @@
                   justify-content-center
                   align-items-center align-self-center
                   p-2
-                  shadow-lg
                   team-img-card
                   text-center
                 "
@@ -375,7 +377,6 @@
                   justify-content-center
                   align-items-center
                   p-2
-                  shadow-lg
                   team-img-card
                   text-center
                 "
@@ -398,7 +399,6 @@
                   justify-content-center
                   align-items-center
                   p-2
-                  shadow-lg
                   team-img-card
                   text-center
                 "
@@ -421,7 +421,6 @@
                   justify-content-center
                   align-items-center
                   p-2
-                  shadow-lg
                   team-img-card
                   text-center
                 "
@@ -444,7 +443,6 @@
                   justify-content-center
                   align-items-center
                   p-2
-                  shadow-lg
                   team-img-card
                   text-center
                 "
@@ -467,7 +465,6 @@
                   justify-content-center
                   align-items-center
                   p-2
-                  shadow-lg
                   team-img-card
                   text-center
                 "
@@ -490,7 +487,6 @@
                   justify-content-center
                   align-items-center
                   p-2
-                  shadow-lg
                   team-img-card
                   text-center
                 "
@@ -513,7 +509,6 @@
                   justify-content-center
                   align-items-center
                   p-2
-                  shadow-lg
                   team-img-card
                   text-center
                 "
@@ -536,7 +531,6 @@
                   justify-content-center
                   align-items-center
                   p-2
-                  shadow-lg
                   team-img-card
                   text-center
                 "
@@ -559,7 +553,6 @@
                   justify-content-center
                   align-items-center
                   p-2
-                  shadow-lg
                   team-img-card
                   text-center
                 "
@@ -580,14 +573,18 @@
     </section>
 
     <!--==========For Students-Section ==========-->
-    <section>
-      <div class="container my-5 py-5">
+    <section class="mt-5">
+      <div class="container mb-5 py-5">
+        <div class="row justify-content-center mb-5">
+          <h2 class="text-center h1">Services</h2>
+          <div class="sec-header my-2"></div>
+        </div>
+
         <div class="row me-0 justify-content-between">
           <div class="col-12 col-lg-6 d-flex flex-column">
             <div>
               <h1 class="h1 fw-bold">
                 Every child is different and No child left behind
-                <!-- How Learn Basic is helpfull for Students -->
               </h1>
             </div>
             <div>
@@ -963,7 +960,7 @@
     <section>
       <div class="container my-5">
         <div class="row justify-content-center mb-5">
-          <h2 class="text-center h1">CONTACT US</h2>
+          <h2 class="text-center h1">Contact Us</h2>
           <div class="sec-header my-2"></div>
         </div>
         <div class="d-flex flex-wrap">
@@ -987,12 +984,12 @@
               </li>
               <li class="list-inline-item offset-1">
                 <a href="#" class="text-decoration-none text-secondary"
-                  ><i class="fab fa-facebook-square fa-lg"></i
+                  ><i class="fab fa-facebook-f fa-lg"></i
                 ></a>
               </li>
               <li class="list-inline-item offset-1">
                 <a href="#" class="text-decoration-none text-secondary"
-                  ><i class="fab fa-linkedin fa-lg"></i
+                  ><i class="fab fa-linkedin-in fa-lg"></i
                 ></a>
               </li>
             </div>
@@ -1009,7 +1006,7 @@
           >
             <li class="list-inline-item me-4 align-items-center mb-4">
               <div class="d-flex align-items-center">
-                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <i class="fas fa-map-marker-alt fa-2x me-2"></i>
 
                 <p class="text-secondary mb-0 offset-1">
                   Salem, Tamil Nadu<br />India
@@ -1087,7 +1084,7 @@
                 <div class="validate"></div>
               </div>
 
-              <div class="text-lg-start text-center">
+              <div class="text-center">
                 <button type="submit" class="btn btn-primary">
                   Send message
                 </button>
@@ -1099,7 +1096,7 @@
     </section>
     <!-- ======= Footer ======= -->
     <footer>
-      <div class="container py-4 shadow">
+      <div class="container-fluid py-4 shadow">
         <div class="row d-flex">
           <div class="col-lg-6 text-lg-start text-center">
             <div class="copyright">
@@ -1157,6 +1154,7 @@
     <!-- End Footer -->
   </body>
 
+  <script src="./asset/js/script.js"></script>
   <!--======== Tiny slider script==========-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
@@ -1165,11 +1163,10 @@
       container: ".slider",
       items: 1,
       gutter: 50,
-      rewind: true,
       autoplay: true,
       mouseDrag: true,
-      // autoplayTimeout: 2000,
-      speed: 4500,
+      autoplayTimeout: 4000,
+      speed: 4000,
       nav: false,
       fixedWidth: 280,
       controls: false,

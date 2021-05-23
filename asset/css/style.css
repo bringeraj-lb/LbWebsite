@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 :root {
   --color-primary: #ffeeff;
   --color1: rgb(117, 0, 255);
@@ -7,6 +8,7 @@
   --hero-bg2: url(./../img/hero-bg-img2.png);
 
   --font1: "Red Hat Display", sans-serif;
+  --banner-font: "PT Serif", serif;
 }
 
 body {
@@ -15,13 +17,19 @@ body {
   background-color: #fff;
   font-family: var(--font1);
 }
+.bg-headder {
+  background-color: var(--color-primary);
+}
 
 /*=============== Background of Navbar ===========*/
 /* .bg-glass {
-  background: rgba(248, 248, 248, 0.44);
+  background: rgba(248, 248, 248, 0.64);
   box-shadow: 0px 0.5px 20px 5px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
 } */
+.main-navigation {
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+}
 
 .course-site-btn {
   color: var(--color1);
@@ -45,11 +53,13 @@ body {
 }
 .analytics-site-btn {
   font-size: 0.9rem;
+  border: 1px solid rgb(170, 170, 170);
 }
 
 .analytics-site-btn:hover {
-  color: var(--color1);
-  background-color: white;
+  /* color: var(--color1); */
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(71, 71, 71);
 }
 
 /*========== Hero Section =========*/
@@ -97,6 +107,7 @@ body {
 .banner-sec {
   margin-top: 15vh;
   margin-bottom: 10vh;
+  font-family: var(--banner-font);
 }
 .banner {
   min-height: 40vh;
@@ -111,6 +122,8 @@ body {
 .team-img-card {
   border-radius: 50px;
   min-height: 38vh;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 28px 28px 60px #c7c7c7, -28px -28px 60px #ffffff;
 }
 .sec-height {
   max-height: calc(100vh);
@@ -123,4 +136,8 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
   }
+}
+/*======== Login Page =========*/
+.login-card {
+  border-radius: 20px;
 }
