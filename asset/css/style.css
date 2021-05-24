@@ -30,7 +30,9 @@ body {
 .main-navigation {
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
 }
-
+.fw-nav {
+  font-weight: 600;
+}
 .course-site-btn {
   color: var(--color1);
   transition-duration: 0.2s;
@@ -52,13 +54,13 @@ body {
   color: white;
 }
 .analytics-site-btn {
+  color: rgba(0, 0, 0, 0.55);
   font-size: 0.9rem;
   border: 1px solid rgb(170, 170, 170);
 }
 
 .analytics-site-btn:hover {
-  /* color: var(--color1); */
-  background-color: rgb(247, 247, 247);
+  /* background-color: rgb(247, 247, 247); */
   border: 1px solid rgb(71, 71, 71);
 }
 
