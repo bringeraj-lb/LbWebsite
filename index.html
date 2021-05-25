@@ -160,7 +160,7 @@
           >
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="./analytics-login.html"
                   ><button
                     class="btn rounded-pill analytics-site-btn fw-nav"
                     type="button"
@@ -187,6 +187,7 @@
     <div>
 
     <!--========== Hero Section ==========-->
+    <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-offset="0" tabindex="0" >
     <section
       class="container-fluid hero-bg d-flex align-items-lg-center"
       id="hero"
@@ -210,7 +211,8 @@
     </section>
 
     <!--========== Who we are? - Section 2 ==========-->
-    <section id="about-us">
+    <div id="about-us"></div>
+    <section >
       <div class="container my-4" style="min-height: 50vh">
         <div class="row justify-content-center">
           <h2 class="text-center h1">Who we are?</h2>
@@ -271,7 +273,7 @@
         >
           <div class="offer-card">
             <span>
-              <img src="./asset/img/logo.png" class="offer-img-block" />
+              <img src="./asset/img/img1offer.svg" class="offer-img-block img-fluid" />
             </span>
             <h2>Head1</h2>
             <p>
@@ -281,7 +283,7 @@
           </div>
           <div class="offer-card">
             <span>
-              <img src="./asset/img/logo.png" class="offer-img-block" />
+              <img src="./asset/img/img2offer.svg" class="offer-img-block" />
             </span>
             <h2>Head2</h2>
             <p>
@@ -291,7 +293,7 @@
           </div>
           <div class="offer-card">
             <span>
-              <img src="./asset/img/logo.png" class="offer-img-block" />
+              <img src="./asset/img/img3offer.svg" class="offer-img-block" />
             </span>
             <h2>Head3</h2>
             <p>
@@ -320,7 +322,7 @@
               <div class="col-12 col-md-10">
                 <h1 class="h1 text-center text-white">
                   <sup><i class="fas fa-quote-left"></i></sup>
-                  Every child is different and No child left behind.
+                  Every child is different and No child left behind
                   <sup><i class="fas fa-quote-right"></i></sup>
                 </h1>
               </div>
@@ -1099,6 +1101,7 @@
         </div>
       </div>
     </section>
+    </div>
 
     <!-- ======= Footer ======= -->
     <footer>
@@ -1184,6 +1187,7 @@
       edgePadding: 15,
       autoplayButtonOutput: false,
       autoWidth: false,
+      preventActionWhenRunning: true,
 
       responsive: {
         640: {

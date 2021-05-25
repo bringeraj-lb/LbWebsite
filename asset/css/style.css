@@ -88,7 +88,7 @@ body {
 
 .offer-img-block {
   height: 255px;
-  width: 250px;
+  width: 300px;
 }
 .offer-card {
   max-width: 310px;
@@ -142,4 +142,6 @@ body {
 /*======== Login Page =========*/
 .login-card {
   border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
 }
