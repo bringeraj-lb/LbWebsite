@@ -83,7 +83,11 @@ body {
 .sec-top {
   min-height: 10vh;
 }
-
+@media (max-width: 992px) {
+  .sec-top {
+    min-height: 8vh;
+  }
+}
 .sec-header {
   content: "";
   display: inline-block;
@@ -112,7 +116,7 @@ body {
   background-attachment: fixed;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .banner-sec {
@@ -156,7 +160,7 @@ body {
 }
 .login-bg {
   background-color: #f876de;
-  background-image: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
+  background-image: linear-gradient(315deg, #f876de 0%, #b978fa 74%);
 
   /* background: #7f00ff;
   background: -webkit-linear-gradient(to right, #e100ff, #7f00ff);
@@ -205,4 +209,7 @@ body {
   .page-content h1:first-of-type {
     font-size: 32px;
   }
+}
+.demos {
+  
 }
