@@ -17,7 +17,7 @@ body {
   background-color: #fff;
   font-family: var(--font1);
 }
-.bg-headder {
+.bg-lb-primary {
   background-color: var(--color-primary);
 }
 
@@ -74,12 +74,21 @@ body {
 .hero-bg {
   background-image: var(--hero-bg2);
   max-height: calc(100vh - 116px);
-  min-height: 600px;
+  min-height: 500px;
   background-size: 85%;
   background-repeat: no-repeat;
   background-position: right;
 }
+@media (max-width: 992px) {
+  .hero-bg {
+    background-image: url(./../img/mobile-herobg-2.png);
 
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+}
+
+/*======= All Section Title ======*/
 .sec-top {
   min-height: 10vh;
 }
@@ -98,7 +107,32 @@ body {
   background: var(--color2);
   border-radius: 20px;
 }
-
+/*====== wave animation ======*/
+.wave-section {
+  width: 100%;
+  height: 100px;
+}
+.wave {
+  width: 100%;
+  height: 100px;
+}
+.wave.wave1 {
+  background: url(./../img/wave1.svg);
+  animation: animate 30s linear infinite alternate;
+}
+.wave.wave2 {
+  background: url(./../img/wave2.svg);
+  animation: animate 30s linear infinite alternate;
+}
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 1000px;
+  }
+}
+/*===== What we offer section =====*/
 .offer-img-block {
   height: 255px;
   width: 300px;
@@ -107,6 +141,8 @@ body {
   max-width: 310px;
   padding: 10px;
 }
+
+/*====== parallax banner =======*/
 .parallax {
   background-image: url("../img/pexels-bess-hamiti-35188.jpg");
   background-size: 100%;
@@ -127,6 +163,8 @@ body {
 .banner {
   min-height: 40vh;
 }
+
+/*======== Team Slider =========*/
 .slider-width {
   width: calc(100vh-50px) !important;
 }
@@ -144,14 +182,7 @@ body {
   max-height: calc(100vh);
   min-height: 600px;
 }
-@media (max-width: 992px) {
-  .hero-bg {
-    background-image: url(./../img/mobile-herobg-2.png);
 
-    background-repeat: no-repeat;
-    background-position: bottom right;
-  }
-}
 /*======== Login Page =========*/
 .login-card {
   border-radius: 20px;
@@ -209,7 +240,4 @@ body {
   .page-content h1:first-of-type {
     font-size: 32px;
   }
-}
-.demos {
-  
 }
