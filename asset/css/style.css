@@ -72,16 +72,17 @@ body {
 /*========== Hero Section =========*/
 
 .hero-bg {
-  background-image: var(--hero-bg2);
-  max-height: calc(100vh - 116px);
-  min-height: 500px;
-  background-size: 85%;
+  /* background-image: var(--hero-bg2); */
+  background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
+  /* max-height: calc(100vh - 116px); */
+  min-height: 600px;
+  /* background-size: 85%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right; */
 }
 @media (max-width: 992px) {
   .hero-bg {
-    background-image: url(./../img/mobile-herobg-2.png);
+    /* background-image: url(./../img/mobile-herobg-2.png); */
 
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -123,6 +124,10 @@ body {
 .wave.wave2 {
   background: url(./../img/wave2.svg);
   animation: animate 30s linear infinite alternate;
+}
+.wave.wave3 {
+  background: url(./../img/herowave.svg);
+  animation: animate 40s linear infinite alternate;
 }
 @keyframes animate {
   0% {
