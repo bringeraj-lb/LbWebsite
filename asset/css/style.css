@@ -73,6 +73,7 @@ body {
 
 .hero-bg {
   /* background-image: var(--hero-bg2); */
+  background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
   /* max-height: calc(100vh - 116px); */
   min-height: 600px;
   /* background-size: 85%;
@@ -123,6 +124,10 @@ body {
 .wave.wave2 {
   background: url(./../img/wave2.svg);
   animation: animate 30s linear infinite alternate;
+}
+.wave.wave3 {
+  background: url(./../img/herowave.svg);
+  animation: animate 40s linear infinite alternate;
 }
 @keyframes animate {
   0% {
