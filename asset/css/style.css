@@ -72,16 +72,17 @@ body {
 /*========== Hero Section =========*/
 
 .hero-bg {
-  background-image: var(--hero-bg2);
-  max-height: calc(100vh - 116px);
-  min-height: 500px;
-  background-size: 85%;
+  /* background-image: var(--hero-bg2); */
+
+  /* max-height: calc(100vh - 116px); */
+  min-height: 600px;
+  /* background-size: 85%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right; */
 }
 @media (max-width: 992px) {
   .hero-bg {
-    background-image: url(./../img/mobile-herobg-2.png);
+    /* background-image: url(./../img/mobile-herobg-2.png); */
 
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -108,7 +109,7 @@ body {
   border-radius: 20px;
 }
 /*====== wave animation ======*/
-.wave-section {
+/* .wave-section {
   width: 100%;
   height: 100px;
 }
@@ -124,6 +125,7 @@ body {
   background: url(./../img/wave2.svg);
   animation: animate 30s linear infinite alternate;
 }
+
 @keyframes animate {
   0% {
     background-position: 0;
@@ -131,7 +133,7 @@ body {
   100% {
     background-position: 1000px;
   }
-}
+} */
 /*===== What we offer section =====*/
 .offer-img-block {
   height: 255px;
@@ -176,7 +178,9 @@ body {
   border-radius: 50px;
   min-height: 38vh;
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
-  box-shadow: 28px 28px 60px #c7c7c7, -28px -28px 60px #ffffff;
+  /* box-shadow: 11px 11px 25px #dddee2, -11px -11px 25px #f9fafe; */
+  box-shadow: 20px 20px 60px #c8c9cc, -20px -20px 60px #ffffff;
+  /* box-shadow: 28px 28px 60px #c7c7c7, -28px -28px 60px #ffffff; */
 }
 .sec-height {
   max-height: calc(100vh);
