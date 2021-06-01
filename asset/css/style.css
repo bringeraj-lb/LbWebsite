@@ -73,7 +73,6 @@ body {
 
 .hero-bg {
   /* background-image: var(--hero-bg2); */
-
   /* max-height: calc(100vh - 116px); */
   min-height: 600px;
   /* background-size: 85%;
@@ -125,7 +124,6 @@ body {
   background: url(./../img/wave2.svg);
   animation: animate 30s linear infinite alternate;
 }
-
 @keyframes animate {
   0% {
     background-position: 0;
