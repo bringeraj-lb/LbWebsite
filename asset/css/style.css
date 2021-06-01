@@ -73,7 +73,7 @@ body {
 
 .hero-bg {
   background-image: var(--hero-bg2);
-  
+
   /* max-height: calc(100vh - 116px); */
   min-height: 600px;
   background-size: 85%;
@@ -178,12 +178,10 @@ body {
   width: 105px;
 }
 .team-img-card {
-  border-radius: 50px;
+  border-radius: 40px;
   min-height: 38vh;
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
-  /* box-shadow: 11px 11px 25px #dddee2, -11px -11px 25px #f9fafe; */
-  box-shadow: 20px 20px 60px #c8c9cc, -20px -20px 60px #ffffff;
-  /* box-shadow: 28px 28px 60px #c7c7c7, -28px -28px 60px #ffffff; */
+  box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;
 }
 .sec-height {
   max-height: calc(100vh);
