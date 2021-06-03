@@ -80,12 +80,18 @@ body {
   background-repeat: no-repeat;
   background-position: right;
 }
+
 @media (max-width: 992px) {
   .hero-bg {
     background-image: url(./../img/mobile-herobg-2.png);
-
+    background-size: 65%;
     background-repeat: no-repeat;
     background-position: bottom right;
+  }
+}
+@media (max-width: 550px) {
+  .hero-bg {
+    background-size: 85%;
   }
 }
 
@@ -208,13 +214,6 @@ body {
 .login-bg {
   background-color: #f876de;
   background-image: linear-gradient(315deg, #f876de 0%, #b978fa 74%);
-
-  /* background: #7f00ff;
-  background: -webkit-linear-gradient(to right, #e100ff, #7f00ff);
-  background: linear-gradient(to right, #e100ff, #7f00ff);
-
-  background-color: #f0ecfc;
-  background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%); */
 }
 
 /*======== Terms and privacy Page =========*/
