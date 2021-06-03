@@ -177,7 +177,7 @@ body {
 
 /*======== services section =======*/
 .nav-pills .active {
-  background-color: #eaeaea;
+  background-color: #eaeaea !important;
 }
 .nav-pills div {
   cursor: pointer;
