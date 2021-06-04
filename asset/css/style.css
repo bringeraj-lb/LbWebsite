@@ -1,13 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
 :root {
   --color-primary: #ffeeff;
   --color1: rgb(117, 0, 255);
   --color2: rgb(223, 0, 225);
+  --black1: #424242;
+  --black2: #716767;
   --hero-bg: url(./../img/hero-bg.svg);
   --hero-bg2: url(./../img/hero-bg-img2.png);
 
   --font1: "Red Hat Display", sans-serif;
+
   --banner-font: "PT Serif", serif;
 }
 
@@ -20,7 +23,21 @@ body {
 .bg-lb-primary {
   background-color: var(--color-primary);
 }
-
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-900 {
+  font-weight: 900;
+}
+.black1 {
+  color: var(--black1);
+}
 /*=============== Background of Navbar ===========*/
 /* .bg-glass {
   background: rgba(248, 248, 248, 0.64);
@@ -30,9 +47,7 @@ body {
 .main-navigation {
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
 }
-.fw-nav {
-  font-weight: 600;
-}
+
 .btn:focus,
 .btn:active {
   outline: none !important;
@@ -155,7 +170,7 @@ body {
 
 /*====== parallax banner =======*/
 .parallax {
-  background-image: url("../img/parles2.jpg");
+  background-image: url("../img/parlex1.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -177,7 +192,19 @@ body {
 
 /*======== services section =======*/
 .nav-pills .active {
-  background-color: #eaeaea !important;
+  /* background-color: #eaeaea !important; */
+  color: #ffffff !important;
+  background: #7f00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    120deg,
+    #7f00ff,
+    #e100ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    120deg,
+    #7f00ff,
+    #e100ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .nav-pills div {
   cursor: pointer;
@@ -222,7 +249,7 @@ body {
   font-weight: 600;
   font-size: 28px;
   line-height: 120%;
-  color: #424242;
+  color: var(--black1);
 }
 .page-content h1:first-of-type {
   font-weight: 700;
@@ -248,7 +275,7 @@ body {
 }
 .page-content p:first-of-type {
   font-weight: 650;
-  color: #424242;
+  color: var(--black1);
 }
 
 @media (max-width: 992px) {
