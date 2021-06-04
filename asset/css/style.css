@@ -4,8 +4,8 @@
   --color-primary: #ffeeff;
   --color1: rgb(117, 0, 255);
   --color2: rgb(223, 0, 225);
-  --black1: #424242;
-  --black2: #716767;
+  --black1: #34373f;
+  --black2: #524343;
   --hero-bg: url(./../img/hero-bg.svg);
   --hero-bg2: url(./../img/hero-bg-img2.png);
 
@@ -19,6 +19,7 @@ body {
   padding: 0%;
   background-color: #fff;
   font-family: var(--font1);
+  color: var(black1);
 }
 .bg-lb-primary {
   background-color: var(--color-primary);
@@ -38,6 +39,7 @@ body {
 .black1 {
   color: var(--black1);
 }
+
 /*=============== Background of Navbar ===========*/
 /* .bg-glass {
   background: rgba(248, 248, 248, 0.64);
@@ -246,18 +248,18 @@ body {
 /*======== Terms and privacy Page =========*/
 
 .brand-text {
-  font-weight: 600;
+  font-weight: 900;
   font-size: 28px;
   line-height: 120%;
   color: var(--black1);
 }
 .page-content h1:first-of-type {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 56px;
 }
 .page-content h1 {
   margin-top: 40px;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 28px;
   line-height: 120%;
 }
