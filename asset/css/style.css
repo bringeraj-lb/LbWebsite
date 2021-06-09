@@ -316,7 +316,8 @@ body {
   font-size: 28px;
   line-height: 120%;
 }
-.page-content p {
+.page-content p,
+ul {
   margin-top: 24px;
   display: block;
   font-weight: 350;
@@ -325,7 +326,7 @@ body {
   color: #716767;
 }
 .page-content p b {
-  color: #000;
+  color: var(--black1);
   font-weight: 600;
 }
 .page-content p:first-of-type {
