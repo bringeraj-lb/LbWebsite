@@ -223,6 +223,17 @@ body {
   padding: 20px;
 }
 
+.about-us-bg {
+  background: url("./../img/about-us-bg.svg") no-repeat;
+  background-position: left;
+  background-size: auto;
+}
+@media (max-width: 550px) {
+  .about-us-bg {
+    background-size: 60%;
+  }
+}
+
 /*====== parallax banner =======*/
 .parallax {
   background-image: url("../img/parlex1.jpg");
