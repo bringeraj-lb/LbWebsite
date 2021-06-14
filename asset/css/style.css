@@ -44,11 +44,7 @@ body {
 }
 
 /*=============== Background of Navbar ===========*/
-/* .bg-glass {
-  background: rgba(248, 248, 248, 0.64);
-  box-shadow: 0px 0.5px 20px 5px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-} */
+
 .main-navigation {
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
 }
@@ -85,7 +81,6 @@ body {
 }
 
 .analytics-site-btn:hover {
-  /* background-color: rgb(247, 247, 247); */
   border: 1px solid rgb(71, 71, 71);
 }
 
@@ -111,6 +106,7 @@ body {
 }
 @media (max-width: 550px) {
   .hero-bg {
+    min-height: 500px;
     background-size: 85%;
   }
 }
@@ -187,37 +183,8 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/*====== wave animation ======*/
-/* .wave-section {
-  width: 100%;
-  height: 100px;
-}
-.wave {
-  width: 100%;
-  height: 100px;
-}
-.wave.wave1 {
-  background: url(./../img/wave1.svg);
-  animation: animate 30s linear infinite alternate;
-}
-.wave.wave2 {
-  background: url(./../img/wave2.svg);
-  animation: animate 30s linear infinite alternate;
-}
-.wave.wave3 {
-  background: url(./../img/herowave.svg);
-  animation: animate 40s linear infinite alternate;
-}
-@keyframes animate {
-  0% {
-    background-position: 0;
-  }
-  100% {
-    background-position: 1000px;
-  }
-} */
 
-/*===== What we offer section =====*/
+/*===== What we offer and aboutus section =====*/
 .offer-img-block {
   height: 255px;
   width: 300px;
@@ -263,7 +230,6 @@ body {
 /*======== services section =======*/
 
 .nav-pills .active {
-  /* background-color: #eaeaea !important; */
   color: #ffffff !important;
   background: var(--color1); /* fallback for old browsers */
   background: -webkit-linear-gradient(
