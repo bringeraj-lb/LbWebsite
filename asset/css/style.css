@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
 :root {
   --color-primary: #ffeeff;
-  --color1: rgb(117, 0, 255);
-  --color2: rgb(223, 0, 225);
+  --color1: #7f00ff;
+  --color2: #e100ff;
   --black1: #34373f;
-  --black2: #615757;
+  --grey: #6c757d;
   --hero-bg: url(./../img/hero-bg.svg);
   --hero-bg2: url(./../img/hero-bg-img3.png);
 
@@ -39,6 +39,9 @@ body {
 .black1 {
   color: var(--black1);
 }
+.text-color2 {
+  color: var(--grey);
+}
 
 /*=============== Background of Navbar ===========*/
 /* .bg-glass {
@@ -59,9 +62,9 @@ body {
   color: var(--color1);
   transition-duration: 0.2s;
   background: linear-gradient(
-    108.58deg,
+    to right,
     var(--color1) 0%,
-    var(--color2) 120.09%
+    var(--color2) 100.09%
   );
   color: white;
   font-size: 0.9rem;
@@ -213,6 +216,7 @@ body {
     background-position: 1000px;
   }
 } */
+
 /*===== What we offer section =====*/
 .offer-img-block {
   height: 255px;
@@ -257,21 +261,23 @@ body {
 }
 
 /*======== services section =======*/
+
 .nav-pills .active {
   /* background-color: #eaeaea !important; */
   color: #ffffff !important;
-  background: #7f00ff; /* fallback for old browsers */
+  background: var(--color1); /* fallback for old browsers */
   background: -webkit-linear-gradient(
     120deg,
-    #7f00ff,
-    #e100ff
+    var(--color1),
+    var(--color2)
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     120deg,
-    #7f00ff,
-    #e100ff
+    var(--color1),
+    var(--color2)
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .nav-pills div {
   cursor: pointer;
 }
@@ -285,7 +291,7 @@ body {
 }
 .team-img-block {
   height: 100px;
-  width: 105px;
+  width: 100px;
 }
 .team-img-card {
   border-radius: 40px;
